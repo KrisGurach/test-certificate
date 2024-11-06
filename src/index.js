@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 
-const App = () => {
-    return <h1>Hello, React with Webpack!</h1>;
+const Page = () => {
+    return (
+        <App />
+    );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Page />, document.getElementById('root'));
